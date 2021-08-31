@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Photo<span>Pi</span>Xeria
+            </div>
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Gallery</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <a href="">Login</a>
+            </div>
+        </nav>
+    <section class="h-text">
+        <i class="fas fa-camera" id="camera"></i>
+        <h1  data-aos="zoom-out-left" >Capturing Moment of life now and forever</h1>
+        <input type="text" name="" placeholder="Search here">
+        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+    </section>
+</header>
+<section class="filter-gallery">
+    <div class="portfolio-menu">
+        <ul>
+            <li class="active" data-filter="*">All</li>
+            <li  data-filter=".nature">Nature</li>
+            <li  data-filter=".Fashion">Faishon</li>
+            <li  data-filter=".wedding">Wedding</li>
+        </ul>
+    </div>
+    <div class="portfolio-item">
+        <div class="item nature" data-aos="flip-left">
+            <img src="img/p1.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item Fashion" data-aos="flip-left">
+            <img src="img/p2.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item wedding" data-aos="flip-left">
+            <img src="img/p3.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item nature" data-aos="flip-left">
+            <img src="img/p4.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item Fashion" data-aos="flip-left">
+            <img src="img/p5.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item wedding" data-aos="flip-left">
+            <img src="img/p6.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item nature" data-aos="flip-left">
+            <img src="img/p7.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item Fashion" data-aos="flip-left">
+            <img src="img/p8.jpg" alt=""width="100" height="100">
+        </div>
+        <div class="item wedding" data-aos="flip-left">
+            <img src="img/p9.jpg" alt=""width="100" height="100">
+        </div>
+    </div>
+</section>
+<section class="member">
+    <div class="member-info">
+        <h1>Our <span>Information</span></h1>
+        <p>What our Teammate say</p>
+    </div>
+    <div class="member-card">
+        <img src="img/member.png" alt="">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum inventore possimus animi debitis obcaecati quam cupiditate sed non ipsam fugit?</p>
+        <h2>Pragya Dubey</h2>
+        <img src="img/icon1.png" alt="" width="100">
+        <img src="img/icon2.png" alt="" width="100">
+        <img src="img/icon3.png" alt="" width="100">
+        <img src="img/icon4.png" alt="" width="100">
+    </div>
+    <div class="m-images">
+        <img src="img/s1.jpg" alt="">
+        <img src="img/s2.jpg" alt="">
+        <img src="img/s3.jpg" alt="">
+        <img src="img/s4.jpg" alt="">
+        <img src="img/s5.jpg" alt="">
+        <img src="img/s6.jpg" alt="">
+    </div>
+</section>
+<footer>
+    <div class="newsletter">
+        <div>
+            <h2>Subscribe our Page</h2>
+            <p>We're a team of non-cynical who truly care for our work</p>
+        </div>
+        <div class="ntext">
+            <label for="">
+                <input type="email" placeholder="Enter your email here">
+                <button>Subscribe</button>
+            </label>
+        </div>
+    </div>
+    <div class="f-contact">
+        <div><h1>
+            Information
+        </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus?</p>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+        <i class="fab fa-telegram" aria-hidden="true"></i>
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+        </div>
+        <div>
+            <h1>Useful links</h1>
+            <p>About us</p>
+            <p>Gallery</p>
+            <p>Blog posts</p>
+            <p>Pricing plans</p>
+        </div>
+        <div>
+            <h1>Details</h1>
+            <p>Photographers</p>
+            <p>Gallery</p>
+            <p>Blog posts</p>
+            <p>Pricing plans</p>
+        </div>
+        <div>
+            <h1>Help & Support</h1>
+            <p>Privacy policy</p>
+            <p>Gallery</p>
+            <p>Blog posts</p>
+            <p>Pricing plans</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+<script src="script.js"></script>
+</html>
